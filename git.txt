@@ -1,0 +1,17 @@
+1.git init:将目录初始化
+2.git add.:对目录中的文件进行追踪
+3.git commit -m"命名":将修改好的文件命名并提交
+4.git log:查看提交历史或日志
+5.git remote:查看远程仓库
+6.git push orgin master:将要分享的项目推送到远程仓库（第一次输入命令要加origin，后面不用）
+7.git reset:重新设置当前操作版本（版本回退，要输入版本号的前几个代码）
+8.git branch xxx:创建一个新的分支，并命名（尽量在分支上操作，master分支上的东西不能乱动)
+9.git branch:查看所有分支
+10.git pull:将库中最新的信息拉取到旧库中
+11.git clone:将库中的信息复制克隆
+12.git config --global user.name "Your Name":创建并记录用户名
+13.git config --global user.email "email@example.com":创建并记录用户邮箱
+14.git status:查看当前仓库状态
+15.git diff:对比上一次修改文件的状态
+16.git reset hard head:回退到当前版本
+17.git checkout master:切换到主干分支
